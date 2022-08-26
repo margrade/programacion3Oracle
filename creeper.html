@@ -1,0 +1,25 @@
+<canvas width="600" height="400"> </canvas>
+
+<script>
+var pantalla= document.querySelector("canvas");
+var pincel = pantalla.getContext("2d");
+
+pincel.fillStyle= "darkgreen"; //propiedad o caracteristica
+pincel.fillRect(0,0,350,300); //fondo de la cara
+
+pincel.fillStyle= "black"; //propiedad o caracteristica
+pincel.fillRect(50,40,90,90); //ojo izq
+
+pincel.fillStyle= "black"; //propiedad o caracteristica
+pincel.fillRect(210,40,90,90); //ojo der
+
+pincel.fillStyle= "black"; //propiedad o caracteristica
+pincel.fillRect(140,130,70,100); //nariz
+
+pincel.fillStyle= "black"; //propiedad o caracteristica
+pincel.fillRect(100,165,40,110); //parte de la boca izq
+
+pincel.fillStyle= "black"; //propiedad o caracteristica
+pincel.fillRect(210,165,40,110); //parte de la boca der
+
+</script>
